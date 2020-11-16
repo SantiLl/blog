@@ -1,7 +1,3 @@
-# config propia
-collections:
-  authors:
-
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
@@ -23,37 +19,57 @@ collections:
 # in the templates via {{ site.myvariable }}.
 
 title: Santiago Llapur
-email: your-email@example.com
+tagline: Santiago's Llapur Blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: ""  # the subpath of your site, e.g. /blog
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+permalink: pretty
 
-# Build settings
-theme: minima
+# Gems
 plugins:
-  - jekyll-feed
+  # - jekyll-gist
+  # - jekyll-paginate
+  # - jekyll-seo-tag
 
-# Exclude from processing.
+# Exclude from processing to optimize Jekyll
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
 # the internal "default list".
 #
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+
+exclude:
+  - .editorconfig
+  - .git
+  - .jekyll-cache
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - README.md
+
+sass:
+  sass_dir: _sass
+  style: :compressed
+
+# Options
+
+# Replace this value and uncomment to enable Google Analytics tracking
+# ga_analytics: UA-000000-0
+
+# Specify the author for blog posts
+author:
+  name: Santiago Llapur
+  url: https://twitter.com
+  email: santillapur(at)gmail(dot)com
+
+# Custom vars
+version: 3.0.0
+
+# Other
+theme: minima
+plugins:
+  - jekyll-feed
