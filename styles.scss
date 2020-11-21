@@ -3,10 +3,12 @@
 # only main files contain this front matter, not partials.
 ---
 
+@import "avatar";
 @import "base";
 @import "code";
 @import "layout";
 @import "message";
+@import "navigation";
 @import "posts";
 @import "syntax";
 @import "toc";

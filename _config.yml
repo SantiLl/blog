@@ -26,13 +26,14 @@ description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-permalink: pretty
+# permalink: pretty
 
 # Gems
 plugins:
+  - jekyll-feed
   # - jekyll-gist
   # - jekyll-paginate
-  # - jekyll-seo-tag
+  - jekyll-seo-tag
 
 # Exclude from processing to optimize Jekyll
 # The following items will not be processed, by default.
@@ -48,12 +49,6 @@ exclude:
   - .jekyll-cache
   - Gemfile
   - Gemfile.lock
-  - LICENSE.md
-  - README.md
-
-sass:
-  sass_dir: _sass
-  style: :compressed
 
 # Options
 
@@ -66,10 +61,3 @@ author:
   url: https://twitter.com
   email: santillapur(at)gmail(dot)com
 
-# Custom vars
-version: 3.0.0
-
-# Other
-theme: minima
-plugins:
-  - jekyll-feed
