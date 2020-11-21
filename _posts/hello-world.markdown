@@ -2,7 +2,6 @@
 layout: post
 title:  "Hello World!"
 date:   2020-11-21 09:00:00 -0300
-categories: jekyll blog
 ---
 ¡Hola Mundo! Luego de procrastinar este mundo lleno de distracciones, arranqué mi propio blog. En este lindo sitio de la matrix me voy a enfocar en crear contenido basado en experiencias y aprendizaje que tenga a lo largo de mi carrera personal/profesional, por lo que probablemente vaya a estar escribiendo sobre software, emprendimientos, y otras yerbas.
  
