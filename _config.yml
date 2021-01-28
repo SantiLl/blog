@@ -20,7 +20,7 @@
 
 title: Santiago Llapur
 tagline: Santiago's Llapur Blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.santiagollapur.com/" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: ""  # the subpath of your site, e.g. /blog
 description: >- # this means to ignore newlines until "baseurl:"
   Este lugar es donde escribo ideas ideas y experiencias propias.
@@ -56,6 +56,6 @@ exclude:
 # Specify the author for blog posts
 author:
   name: Santiago Llapur
-  url: https://twitter.com
-  email: santillapur(at)gmail(dot)com
+  url: https://santiagollapur.com
+  email: santillapur@gmail.com
 
