@@ -11,7 +11,7 @@ Si solo pudiera elegir un comando de git, definitivamente sería `git stash`. Un
 
 Un escenario bastante usual en el que hacía uso de este comando es cuando estaba trabajando en una feature particular, pero surgía algún bug en producción y tenía que dejar lo que estaba haciendo para tirar un hotfix en la codebase. No iba a deshacer todo lo que venía haciendo, por lo que hacía un `git stash` (o `git stash -u` en el caso de que untracked files), abría una nueva branch para solucionar el bug, y luego retornaba a lo que estaba haciendo en la rama de la feature con un `git stash pop`. En el caso de que los cambios stasheados no sean útiles se pueden eliminar con `git stash drop`. Además podemos tener más de un stash guardado, por lo que podemos ver la cantidad de stashes con `git stash list`.
 
-<img src="https://res.cloudinary.com/dd28ghazj/image/upload/v1611013931/santiagollapur.com/git-stash_mkh9bd.png">
+<img src="https://res.cloudinary.com/dd28ghazj/image/upload/v1611013931/santiagollapur.com/advanced-git-commands/git-stash_mkh9bd.png">
 
 Para entender más en profundidad recomiendo leer el siguiente [blogpost](https://www.atlassian.com/es/git/tutorials/saving-changes/git-stash){:target="_blank"}.
 
