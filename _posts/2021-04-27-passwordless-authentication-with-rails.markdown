@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Autenticación Passwordless con Rails"
-date:   2021-04-27 23:00:00 -0300
+date:   2021-04-27 09:00:00 -0300
 permalink: autenticacion-passwordless-con-rails
 ---
 # ¿Qué es una autenticación passwordless?
